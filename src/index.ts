@@ -29,7 +29,7 @@ export default function maskNumber(value: string, masks: string[]) {
                 break;
             }
         } else {
-            const zerosAhead = mask.slice(i + 1).split('').filter(c => c === '0').length;
+            const zerosAhead = (mask.slice(i + 1).match(/0/g) || []).length;
             if (digits.length > digitIndex) {
                 formatted += mask[i];
             }
