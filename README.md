@@ -98,7 +98,20 @@ npm run build
 npm link
 ```
 
-# Inside your project
+## 💡 Tips
+Use multiple masks to handle variable-length numbers.
+
+Keep 0 as the digit placeholder; all other characters are treated as literals.
+
+Ideal for phone numbers, dates, IDs, and other numeric inputs.
+
+## For local development:
+
+### Inside the library folder
+```sh
+npm run build
+
+npm link
 ```sh
 npm link mask-any-number
 ```
