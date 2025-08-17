@@ -32,7 +32,7 @@ maskNumber('12345', ['000-000', '00000']); // "12345"
 maskNumber('123456', ['000-000', '00000']); // "123-456"
 
 // 📘 Date & Phone Examples
-Dates
+### Dates
 // US (MM/DD/YYYY)
 maskNumber('12312025', ['00/00/0000']); // "12/31/2025"
 
