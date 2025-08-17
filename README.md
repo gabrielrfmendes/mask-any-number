@@ -71,7 +71,7 @@ Return: `string` — formatted number according to the first mask that fits.
 | CN Phone   | 861012345678   | +86 00 0000 0000  | +86 10 1234 5678 |
 
 # 🧪 Testing with Mock Data
-```sh
+```javascript
 const examples = [
     { value: '1234567890', masks: ['000-000-0000'] },
     { value: '31122025', masks: ['00/00/0000'] },
