@@ -3,7 +3,7 @@ A lightweight, flexible number-masking library — supports multiple mask patter
 
 ![npm version](https://img.shields.io/npm/v/gabrielrfmendes/mask-any-number)
 ![license](https://img.shields.io/npm/l/mask-any-number)
-![types](https://img.shields.io/npm/types/gabrielrfmendes/mask-any-number)
+![types](https://img.shields.io/npm/types/mask-any-number)
 ![npm version](https://img.shields.io/npm/v/mask-any-number)
 ![license](https://img.shields.io/npm/l/mask-any-number)
 ![types](https://img.shields.io/npm/types/mask-any-number)
