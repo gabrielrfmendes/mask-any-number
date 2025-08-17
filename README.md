@@ -21,7 +21,7 @@ yarn add mask-any-number
 ```
 
 # 🚀 Quick Example
-```sh
+```js
 import maskNumber from 'mask-any-number';
 
 // Basic usage
