@@ -17,12 +17,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seu-usuario/mask-any-number.git"
+    "url": "git+https://github.com/gabrielrfmendes/mask-any-number.git"
   },
   "bugs": {
-    "url": "https://github.com/seu-usuario/mask-any-number/issues"
+    "url": "https://github.com/gabrielrfmendes/mask-any-number/issues"
   },
-  "homepage": "https://github.com/seu-usuario/mask-any-number#readme",
+  "homepage": "https://github.com/gabrielrfmendes/mask-any-number#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-node-resolve": "^16.0.1",
