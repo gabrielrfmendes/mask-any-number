@@ -42,7 +42,7 @@ maskNumber('31122025', ['00/00/0000']); // "31/12/2025"
 // China (YYYY/MM/DD)
 maskNumber('20251231', ['0000/00/00']); // "2025/12/31"
 
-Phone Numbers
+### Phone Numbers
 // US: (XXX) XXX-XXXX
 maskNumber('1234567890', ['(000) 000-0000']); // "(123) 456-7890"
 
