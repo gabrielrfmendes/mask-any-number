@@ -30,7 +30,7 @@ export default function maskNumber(value: string, masks: string[]) {
             }
         } else {
             const zerosAhead = mask.slice(i + 1).split('').filter(c => c === '0').length;
-            if (digits.length > digitIndex && digits.length > digits.length - zerosAhead - 1) {
+            if (digits.length > digitIndex) {
                 formatted += mask[i];
             }
         }
