@@ -7,7 +7,7 @@ export default function maskNumber(value: string, masks: string[]) {
 
     let mask = masks[0];
     for (let i = 0; i < masks.length; i++) {
-        const zeros = masks[i].split('').filter(c => c === '0').length;
+        const zeros = (masks[i].match(/0/g) || []).length;
         if (digits.length <= zeros) {
             mask = masks[i];
             break;
