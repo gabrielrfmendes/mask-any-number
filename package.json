@@ -1,0 +1,20 @@
+{
+  "name": "mask-any-numbers",
+  "version": "1.0.0",
+  "description": "Apply flexible numeric masks to any string. Perfect for phone numbers, documents, and custom input formatting.",
+  "homepage": "https://github.com/gabrielrfmendes/mask-any-number#readme",
+  "bugs": {
+    "url": "https://github.com/gabrielrfmendes/mask-any-number/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielrfmendes/mask-any-number.git"
+  },
+  "license": "MIT",
+  "author": "Gabriel Mendes <gabrielrfmendes@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
