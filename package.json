@@ -1,20 +1,44 @@
 {
-  "name": "mask-any-numbers",
+  "name": "mask-any-number",
   "version": "1.0.0",
   "description": "Apply flexible numeric masks to any string. Perfect for phone numbers, documents, and custom input formatting.",
-  "homepage": "https://github.com/gabrielrfmendes/mask-any-number#readme",
-  "bugs": {
-    "url": "https://github.com/gabrielrfmendes/mask-any-number/issues"
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build"
   },
+  "author": "Gabriel Mendes <gabrielrfmendes@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrielrfmendes/mask-any-number.git"
+    "url": "git+https://github.com/seu-usuario/mask-any-number.git"
   },
-  "license": "MIT",
-  "author": "Gabriel Mendes <gabrielrfmendes@gmail.com>",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "bugs": {
+    "url": "https://github.com/seu-usuario/mask-any-number/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/mask-any-number#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.3",
+    "rollup": "^4.44.0",
+    "typescript": "^5.8.3"
+  },
+  "keywords": [
+    "mask",
+    "number",
+    "input",
+    "formatter",
+    "format",
+    "string",
+    "phone",
+    "document",
+    "typescript",
+    "javascript"
+  ]
 }
