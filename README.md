@@ -112,7 +112,7 @@ Ideal for phone numbers, dates, IDs, and other numeric inputs.
 npm run build
 
 npm link
-```sh
+
 npm link mask-any-number
 ```
 
