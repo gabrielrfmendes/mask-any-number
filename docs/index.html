@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📜 mask-any-number | Lightweight JavaScript Masking Library</title>
+    <meta name="description"
+        content="mask-any-number is a fast, lightweight, and dependency-free JavaScript library to apply numeric masks easily. Perfect for phone numbers, dates, and custom formats.">
+    <meta name="keywords"
+        content="javascript mask, number format, input mask, phone mask, date mask, lightweight library, npm, mask-any-number">
+    <meta name="author" content="Gabriel">
+    <meta property="og:title" content="📜 mask-any-number">
+    <meta property="og:description" content="Lightweight JavaScript library to apply numeric masks easily and quickly.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com">
+    <meta property="og:image" content="https://yourdomain.com/preview.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-gray-200 font-sans">
+    <header class="bg-black border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
+            <h1 class="text-xl font-bold text-blue-400">📜 mask-any-number</h1>
+            <nav>
+                <ul class="flex gap-6 font-medium text-gray-300">
+                    <li><a href="#installation" class="hover:text-blue-400">Installation</a></li>
+                    <li><a href="#usage" class="hover:text-blue-400">Usage</a></li>
+                    <li><a href="#api" class="hover:text-blue-400">API</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="py-20 bg-black">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1 text-center md:text-left">
+                <h2 class="text-4xl font-bold mb-4">Mask Any Number ✨</h2>
+                <p class="text-lg text-gray-400">
+                    A simple and powerful JavaScript library to apply numeric masks dynamically.
+                    Lightweight, fast, and dependency-free.
+                </p>
+                <pre class="relative bg-gray-900 text-green-400 p-4 rounded-lg mt-6 overflow-x-auto">
+<button onclick="copyCode(this)" class="absolute top-2 right-2 text-gray-400 hover:text-white">📋</button>
+npm install mask-any-number
+        </pre>
+            </div>
+            <div id="demo"
+                class="flex-1 bg-gray-900 shadow-lg rounded-2xl p-6 w-full max-w-md mx-auto border border-gray-800">
+                <h3 class="text-xl font-semibold mb-4">🎮 Demo</h3>
+                <label for="value" class="block font-medium mb-1">Enter a number:</label>
+                <input id="value" type="text"
+                    class="w-full border rounded-lg p-2 mb-4 bg-black text-white border-gray-700 focus:outline-none focus:ring focus:ring-blue-400"
+                    placeholder="type here" autofocus>
+
+                <label for="mask" class="block font-medium mb-1">Choose a mask:</label>
+                <select id="mask"
+                    class="w-full border rounded-lg p-2 mb-4 bg-black text-white border-gray-700 focus:outline-none focus:ring focus:ring-blue-400">
+                    <option value="000-000-0000">Phone (US): 000-000-0000</option>
+                    <option value="00/00/0000">Date (EU): 00/00/0000</option>
+                    <option value="(000) 000-0000">Phone (US formatted): (000) 000-0000</option>
+                    <option value="+00 00 0000 0000">Phone (BR): +00 00 0000 0000</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <section id="installation" class="py-16 max-w-5xl mx-auto px-6">
+        <h3 class="text-2xl font-semibold mb-4">🚀 Installation</h3>
+        <pre class="relative bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto">
+<button onclick="copyCode(this)" class="absolute top-2 right-2 text-gray-400 hover:text-white">📋</button>
+npm install mask-any-number
+    </pre>
+        <p class="mt-2">Or use directly via CDN:</p>
+        <pre class="relative bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto">
+<button onclick="copyCode(this)" class="absolute top-2 right-2 text-gray-400 hover:text-white">📋</button>
+&lt;script src="https://cdn.jsdelivr.net/npm/mask-any-number/dist/index.umd.min.js"&gt;&lt;/script&gt;
+    </pre>
+    </section>
+    <section id="usage" class="py-16 max-w-5xl mx-auto px-6">
+        <h3 class="text-2xl font-semibold mb-4">📖 Usage</h3>
+        <pre class="relative bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto">
+<button onclick="copyCode(this)" class="absolute top-2 right-2 text-gray-400 hover:text-white">📋</button>
+import { maskNumber } from "mask-any-number";
+
+const result = maskNumber("1234567890", ["000-000-0000"]);
+console.log(result); // "123-456-7890"
+    </pre>
+    </section>
+    <section id="api" class="py-16 max-w-5xl mx-auto px-6">
+        <h3 class="text-2xl font-semibold mb-4">⚙️ API</h3>
+        <p><strong>maskNumber(value: string, masks: string[]): string</strong></p>
+        <ul class="list-disc ml-6 mt-2 text-gray-400">
+            <li><code>value</code>: String containing only digits to be formatted.</li>
+            <li><code>masks</code>: Array of strings representing possible mask patterns.</li>
+            <li>Returns the string formatted according to the first fitting mask.</li>
+        </ul>
+    </section>
+    <footer class="bg-black border-t border-gray-800 text-gray-500 py-6 text-center">
+        <p>📜 mask-any-number — Developed by Gabriel</p>
+        <p class="text-sm">Open source available on <a href="https://github.com/seu-repo" target="_blank"
+                class="text-blue-400 hover:underline">GitHub</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/mask-any-number/dist/index.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
