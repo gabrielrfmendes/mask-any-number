@@ -1,13 +1,10 @@
 # 📜 mask-any-number
 A lightweight, flexible number-masking library — supports multiple mask patterns and automatically picks the best fit based on the input length.
 
-![npm version](https://img.shields.io/npm/v/gabrielrfmendes/mask-any-number)
-![license](https://img.shields.io/npm/l/mask-any-number)
-![types](https://img.shields.io/npm/types/mask-any-number)
 ![npm version](https://img.shields.io/npm/v/mask-any-number)
+![npm downloads](https://img.shields.io/npm/dw/mask-any-number)
 ![license](https://img.shields.io/npm/l/mask-any-number)
 ![types](https://img.shields.io/npm/types/mask-any-number)
-![npm downloads](https://img.shields.io/npm/dw/mask-any-number)
 
 ## 🔧 Installation
 ```sh
@@ -20,9 +17,27 @@ or
 yarn add mask-any-number
 ```
 
-# 🚀 Quick Example
+# 🌍 Country Phone Masks (built-in)
 ```js
-import maskNumber from 'mask-any-number';
+import { maskNumber, countries } from 'mask-any-number';
+
+// Germany 🇩🇪
+maskNumber('493012345678', countries.find(country => country.iso2 === 'DE').masks); 
+// "+49 30 1234 5678"
+
+// Brazil 🇧🇷
+maskNumber('5511998765432', countries.find(country => country.iso2 === 'BR').masks); 
+// "+55 11 99876 5432"
+
+// US 🇺🇸
+maskNumber('1234567890', countries.find(country => country.iso2 === 'US').masks); 
+// "(123) 456-7890"
+
+```
+
+# 🎨 Custom Masks
+```js
+import { maskNumber } from 'mask-any-number';
 
 // Basic usage
 maskNumber('1234567890', ['000-000-0000']); // "123-456-7890"
@@ -30,17 +45,6 @@ maskNumber('1234567890', ['000-000-0000']); // "123-456-7890"
 // Multiple masks, chooses first that fits
 maskNumber('12345', ['000-000', '00000']); // "12345"
 maskNumber('123456', ['000-000', '00000']); // "123-456"
-
-// 📘 Date & Phone Examples
-### Dates
-// US (MM/DD/YYYY)
-maskNumber('12312025', ['00/00/0000']); // "12/31/2025"
-
-// Europe (DD/MM/YYYY)
-maskNumber('31122025', ['00/00/0000']); // "31/12/2025"
-
-// China (YYYY/MM/DD)
-maskNumber('20251231', ['0000/00/00']); // "2025/12/31"
 
 ### Phone Numbers
 // US: (XXX) XXX-XXXX
@@ -64,8 +68,6 @@ Return: `string` — formatted number according to the first mask that fits.
 # 🔁 Visual Summary
 | Type        | Input          | Mask                | Output          |
 |------------|----------------|-------------------|----------------|
-| EU Date    | 31122025       | 00/00/0000        | 31/12/2025     |
-| CN Date    | 20251231       | 0000/00/00        | 2025/12/31     |
 | US Phone   | 1234567890     | (000) 000-0000    | (123) 456-7890 |
 | EU Phone   | 493012345678   | +49 00 0000 0000  | +49 30 1234 5678 |
 | CN Phone   | 861012345678   | +86 00 0000 0000  | +86 10 1234 5678 |
