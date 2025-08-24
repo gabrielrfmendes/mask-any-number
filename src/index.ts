@@ -1,4 +1,16 @@
-export default function maskNumber(value: string, masks: string[]) {
+import rawCountries from './countries.json';
+
+interface Country {
+    iso2: string;
+    name: string;
+    flag: string;
+    countryCode: string;
+    masks?: string[];
+}
+
+export const countries: Country[] = rawCountries as Country[];
+
+export function maskNumber(value: string, masks: string[]) {
     const digits = value.replace(/\D/g, '');
 
     if (masks.length === 0) {

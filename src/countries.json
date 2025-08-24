@@ -1,0 +1,1848 @@
+[
+    {
+        "iso2": "AD",
+        "name": "Andorra",
+        "flag": "🇦🇩",
+        "countryCode": "376"
+    },
+    {
+        "iso2": "AE",
+        "name": "United Arab Emirates",
+        "flag": "🇦🇪",
+        "countryCode": "971",
+        "masks": [
+            "0 000 0000"
+        ]
+    },
+    {
+        "iso2": "AF",
+        "name": "Afghanistan",
+        "flag": "🇦🇫",
+        "countryCode": "93",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "AG",
+        "name": "Antigua and Barbuda",
+        "flag": "🇦🇬",
+        "countryCode": "1-268"
+    },
+    {
+        "iso2": "AI",
+        "name": "Anguilla",
+        "flag": "🇦🇮",
+        "countryCode": "1-264"
+    },
+    {
+        "iso2": "AL",
+        "name": "Albania",
+        "flag": "🇦🇱",
+        "countryCode": "355",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "AM",
+        "name": "Armenia",
+        "flag": "🇦🇲",
+        "countryCode": "374",
+        "masks": [
+            "00 000000"
+        ]
+    },
+    {
+        "iso2": "AO",
+        "name": "Angola",
+        "flag": "🇦🇴",
+        "countryCode": "244",
+        "masks": [
+            "000 000 000"
+        ]
+    },
+    {
+        "iso2": "AQ",
+        "name": "Antarctica",
+        "flag": "🇦🇶",
+        "countryCode": "672"
+    },
+    {
+        "iso2": "AR",
+        "name": "Argentina",
+        "flag": "🇦🇷",
+        "countryCode": "54",
+        "masks": [
+            "00 0000-0000"
+        ]
+    },
+    {
+        "iso2": "AS",
+        "name": "American Samoa",
+        "flag": "🇦🇸",
+        "countryCode": "1-684"
+    },
+    {
+        "iso2": "AT",
+        "name": "Austria",
+        "flag": "🇦🇹",
+        "countryCode": "43",
+        "masks": [
+            "000 0000000"
+        ]
+    },
+    {
+        "iso2": "AU",
+        "name": "Australia",
+        "flag": "🇦🇺",
+        "countryCode": "61",
+        "suggested": true,
+        "masks": [
+            "0 0000 0000"
+        ]
+    },
+    {
+        "iso2": "AW",
+        "name": "Aruba",
+        "flag": "🇦🇼",
+        "countryCode": "297"
+    },
+    {
+        "iso2": "AX",
+        "name": "Åland Islands",
+        "flag": "🇦🇽",
+        "countryCode": "358"
+    },
+    {
+        "iso2": "AZ",
+        "name": "Azerbaijan",
+        "flag": "🇦🇿",
+        "countryCode": "994",
+        "masks": [
+            "00 000 00 00"
+        ]
+    },
+    {
+        "iso2": "BA",
+        "name": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "countryCode": "387",
+        "masks": [
+            "00 000 000"
+        ]
+    },
+    {
+        "iso2": "BB",
+        "name": "Barbados",
+        "flag": "🇧🇧",
+        "countryCode": "1-246"
+    },
+    {
+        "iso2": "BD",
+        "name": "Bangladesh",
+        "flag": "🇧🇩",
+        "countryCode": "880",
+        "masks": [
+            "00 000 000"
+        ]
+    },
+    {
+        "iso2": "BE",
+        "name": "Belgium",
+        "flag": "🇧🇪",
+        "countryCode": "32",
+        "masks": [
+            "000 00 00 00"
+        ]
+    },
+    {
+        "iso2": "BF",
+        "name": "Burkina Faso",
+        "flag": "🇧🇫",
+        "countryCode": "226"
+    },
+    {
+        "iso2": "BG",
+        "name": "Bulgaria",
+        "flag": "🇧🇬",
+        "countryCode": "359",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "BH",
+        "name": "Bahrain",
+        "flag": "🇧🇭",
+        "countryCode": "973",
+        "masks": [
+            "0000 0000"
+        ]
+    },
+    {
+        "iso2": "BI",
+        "name": "Burundi",
+        "flag": "🇧🇮",
+        "countryCode": "257"
+    },
+    {
+        "iso2": "BJ",
+        "name": "Benin",
+        "flag": "🇧🇯",
+        "countryCode": "229"
+    },
+    {
+        "iso2": "BL",
+        "name": "Saint Barthélemy",
+        "flag": "🇧🇱",
+        "countryCode": "590"
+    },
+    {
+        "iso2": "BM",
+        "name": "Bermuda",
+        "flag": "🇧🇲",
+        "countryCode": "1-441"
+    },
+    {
+        "iso2": "BN",
+        "name": "Brunei Darussalam",
+        "flag": "🇧🇳",
+        "countryCode": "673"
+    },
+    {
+        "iso2": "BO",
+        "name": "Bolivia",
+        "flag": "🇧🇴",
+        "countryCode": "591",
+        "masks": [
+            "0 0000000"
+        ]
+    },
+    {
+        "iso2": "BR",
+        "name": "Brazil",
+        "flag": "🇧🇷",
+        "countryCode": "55",
+        "masks": [
+            "00 0000-0000",
+            "00 00000-0000"
+        ]
+    },
+    {
+        "iso2": "BS",
+        "name": "Bahamas",
+        "flag": "🇧🇸",
+        "countryCode": "1-242"
+    },
+    {
+        "iso2": "BT",
+        "name": "Bhutan",
+        "flag": "🇧🇹",
+        "countryCode": "975"
+    },
+    {
+        "iso2": "BV",
+        "name": "Bouvet Island",
+        "flag": "🇧🇻",
+        "countryCode": "47"
+    },
+    {
+        "iso2": "BW",
+        "name": "Botswana",
+        "flag": "🇧🇼",
+        "countryCode": "267"
+    },
+    {
+        "iso2": "BY",
+        "name": "Belarus",
+        "flag": "🇧🇾",
+        "countryCode": "375",
+        "masks": [
+            "0 000 000-00-00"
+        ]
+    },
+    {
+        "iso2": "BZ",
+        "name": "Belize",
+        "flag": "🇧🇿",
+        "countryCode": "501"
+    },
+    {
+        "iso2": "CA",
+        "name": "Canada",
+        "flag": "🇨🇦",
+        "countryCode": "1",
+        "suggested": true,
+        "masks": [
+            "000-000-0000"
+        ]
+    },
+    {
+        "iso2": "CC",
+        "name": "Cocos (Keeling) Islands",
+        "flag": "🇨🇨",
+        "countryCode": "61"
+    },
+    {
+        "iso2": "CD",
+        "name": "Congo, Democratic Republic of the",
+        "flag": "🇨🇩",
+        "countryCode": "243"
+    },
+    {
+        "iso2": "CF",
+        "name": "Central African Republic",
+        "flag": "🇨🇫",
+        "countryCode": "236"
+    },
+    {
+        "iso2": "CG",
+        "name": "Congo, Republic of the",
+        "flag": "🇨🇬",
+        "countryCode": "242"
+    },
+    {
+        "iso2": "CH",
+        "name": "Switzerland",
+        "flag": "🇨🇭",
+        "countryCode": "41",
+        "masks": [
+            "00 000 00 00"
+        ]
+    },
+    {
+        "iso2": "CI",
+        "name": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "countryCode": "225"
+    },
+    {
+        "iso2": "CK",
+        "name": "Cook Islands",
+        "flag": "🇨🇰",
+        "countryCode": "682"
+    },
+    {
+        "iso2": "CL",
+        "name": "Chile",
+        "flag": "🇨🇱",
+        "countryCode": "56",
+        "masks": [
+            "0 0000 0000"
+        ]
+    },
+    {
+        "iso2": "CM",
+        "name": "Cameroon",
+        "flag": "🇨🇲",
+        "countryCode": "237"
+    },
+    {
+        "iso2": "CN",
+        "name": "China",
+        "flag": "🇨🇳",
+        "countryCode": "86",
+        "masks": [
+            "000 0000 0000"
+        ]
+    },
+    {
+        "iso2": "CO",
+        "name": "Colombia",
+        "flag": "🇨🇴",
+        "countryCode": "57",
+        "masks": [
+            "000 0000000"
+        ]
+    },
+    {
+        "iso2": "CR",
+        "name": "Costa Rica",
+        "flag": "🇨🇷",
+        "countryCode": "506",
+        "masks": [
+            "0000 0000"
+        ]
+    },
+    {
+        "iso2": "CU",
+        "name": "Cuba",
+        "flag": "🇨🇺",
+        "countryCode": "53"
+    },
+    {
+        "iso2": "CV",
+        "name": "Cape Verde",
+        "flag": "🇨🇻",
+        "countryCode": "238"
+    },
+    {
+        "iso2": "CW",
+        "name": "Curaçao",
+        "flag": "🇨🇼",
+        "countryCode": "599"
+    },
+    {
+        "iso2": "CX",
+        "name": "Christmas Island",
+        "flag": "🇨🇽",
+        "countryCode": "61"
+    },
+    {
+        "iso2": "CY",
+        "name": "Cyprus",
+        "flag": "🇨🇾",
+        "countryCode": "357",
+        "masks": [
+            "00 000000"
+        ]
+    },
+    {
+        "iso2": "CZ",
+        "name": "Czech Republic",
+        "flag": "🇨🇿",
+        "countryCode": "420",
+        "masks": [
+            "000 000 000"
+        ]
+    },
+    {
+        "iso2": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪",
+        "countryCode": "49",
+        "masks": [
+            "0000 0000000"
+        ]
+    },
+    {
+        "iso2": "DJ",
+        "name": "Djibouti",
+        "flag": "🇩🇯",
+        "countryCode": "253"
+    },
+    {
+        "iso2": "DK",
+        "name": "Denmark",
+        "flag": "🇩🇰",
+        "countryCode": "45",
+        "masks": [
+            "00 00 00 00"
+        ]
+    },
+    {
+        "iso2": "DM",
+        "name": "Dominica",
+        "flag": "🇩🇲",
+        "countryCode": "1-767"
+    },
+    {
+        "iso2": "DO",
+        "name": "Dominican Republic",
+        "flag": "🇩🇴",
+        "countryCode": "1-809",
+        "masks": [
+            "000-000-0000"
+        ]
+    },
+    {
+        "iso2": "DZ",
+        "name": "Algeria",
+        "flag": "🇩🇿",
+        "countryCode": "213",
+        "masks": [
+            "00 00 00 00"
+        ]
+    },
+    {
+        "iso2": "EC",
+        "name": "Ecuador",
+        "flag": "🇪🇨",
+        "countryCode": "593",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "EE",
+        "name": "Estonia",
+        "flag": "🇪🇪",
+        "countryCode": "372",
+        "masks": [
+            "0000 000000"
+        ]
+    },
+    {
+        "iso2": "EG",
+        "name": "Egypt",
+        "flag": "🇪🇬",
+        "countryCode": "20",
+        "masks": [
+            "000 000 0000"
+        ]
+    },
+    {
+        "iso2": "EH",
+        "name": "Western Sahara",
+        "flag": "🇪🇭",
+        "countryCode": "212"
+    },
+    {
+        "iso2": "ER",
+        "name": "Eritrea",
+        "flag": "🇪🇷",
+        "countryCode": "291"
+    },
+    {
+        "iso2": "ES",
+        "name": "Spain",
+        "flag": "🇪🇸",
+        "countryCode": "34",
+        "masks": [
+            "000 00 00 00"
+        ]
+    },
+    {
+        "iso2": "ET",
+        "name": "Ethiopia",
+        "flag": "🇪🇹",
+        "countryCode": "251"
+    },
+    {
+        "iso2": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮",
+        "countryCode": "358",
+        "masks": [
+            "00 00000000"
+        ]
+    },
+    {
+        "iso2": "FJ",
+        "name": "Fiji",
+        "flag": "🇫🇯",
+        "countryCode": "679"
+    },
+    {
+        "iso2": "FK",
+        "name": "Falkland Islands (Malvinas)",
+        "flag": "🇫🇰",
+        "countryCode": "500"
+    },
+    {
+        "iso2": "FM",
+        "name": "Micronesia, Federated States of",
+        "flag": "🇫🇲",
+        "countryCode": "691"
+    },
+    {
+        "iso2": "FO",
+        "name": "Faroe Islands",
+        "flag": "🇫🇴",
+        "countryCode": "298"
+    },
+    {
+        "iso2": "FR",
+        "name": "France",
+        "flag": "🇫🇷",
+        "countryCode": "33",
+        "masks": [
+            "0 00 00 00 00"
+        ]
+    },
+    {
+        "iso2": "GA",
+        "name": "Gabon",
+        "flag": "🇬🇦",
+        "countryCode": "241"
+    },
+    {
+        "iso2": "GB",
+        "name": "United Kingdom",
+        "flag": "🇬🇧",
+        "countryCode": "44",
+        "masks": [
+            "0000 000000"
+        ]
+    },
+    {
+        "iso2": "GD",
+        "name": "Grenada",
+        "flag": "🇬🇩",
+        "countryCode": "1-473"
+    },
+    {
+        "iso2": "GE",
+        "name": "Georgia",
+        "flag": "🇬🇪",
+        "countryCode": "995",
+        "masks": [
+            "000 00 00 00"
+        ]
+    },
+    {
+        "iso2": "GF",
+        "name": "French Guiana",
+        "flag": "🇬🇫",
+        "countryCode": "594"
+    },
+    {
+        "iso2": "GG",
+        "name": "Guernsey",
+        "flag": "🇬🇬",
+        "countryCode": "44"
+    },
+    {
+        "iso2": "GH",
+        "name": "Ghana",
+        "flag": "🇬🇭",
+        "countryCode": "233",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "GI",
+        "name": "Gibraltar",
+        "flag": "🇬🇮",
+        "countryCode": "350"
+    },
+    {
+        "iso2": "GL",
+        "name": "Greenland",
+        "flag": "🇬🇱",
+        "countryCode": "299"
+    },
+    {
+        "iso2": "GM",
+        "name": "Gambia",
+        "flag": "🇬🇲",
+        "countryCode": "220"
+    },
+    {
+        "iso2": "GN",
+        "name": "Guinea",
+        "flag": "🇬🇳",
+        "countryCode": "224"
+    },
+    {
+        "iso2": "GP",
+        "name": "Guadeloupe",
+        "flag": "🇬🇵",
+        "countryCode": "590"
+    },
+    {
+        "iso2": "GQ",
+        "name": "Equatorial Guinea",
+        "flag": "🇬🇶",
+        "countryCode": "240"
+    },
+    {
+        "iso2": "GR",
+        "name": "Greece",
+        "flag": "🇬🇷",
+        "countryCode": "30",
+        "masks": [
+            "000 000 0000"
+        ]
+    },
+    {
+        "iso2": "GS",
+        "name": "South Georgia and the South Sandwich Islands",
+        "flag": "🇬🇸",
+        "countryCode": "500"
+    },
+    {
+        "iso2": "GT",
+        "name": "Guatemala",
+        "flag": "🇬🇹",
+        "countryCode": "502",
+        "masks": [
+            "0000 0000"
+        ]
+    },
+    {
+        "iso2": "GU",
+        "name": "Guam",
+        "flag": "🇬🇺",
+        "countryCode": "1-671"
+    },
+    {
+        "iso2": "GW",
+        "name": "Guinea-Bissau",
+        "flag": "🇬🇼",
+        "countryCode": "245"
+    },
+    {
+        "iso2": "GY",
+        "name": "Guyana",
+        "flag": "🇬🇾",
+        "countryCode": "592"
+    },
+    {
+        "iso2": "HK",
+        "name": "Hong Kong",
+        "flag": "🇭🇰",
+        "countryCode": "852",
+        "masks": [
+            "0000 0000"
+        ]
+    },
+    {
+        "iso2": "HM",
+        "name": "Heard Island and McDonald Islands",
+        "flag": "🇭🇲",
+        "countryCode": "672"
+    },
+    {
+        "iso2": "HN",
+        "name": "Honduras",
+        "flag": "🇭🇳",
+        "countryCode": "504",
+        "masks": [
+            "0000-0000"
+        ]
+    },
+    {
+        "iso2": "HR",
+        "name": "Croatia",
+        "flag": "🇭🇷",
+        "countryCode": "385",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "HT",
+        "name": "Haiti",
+        "flag": "🇭🇹",
+        "countryCode": "509",
+        "masks": [
+            "00 00 0000"
+        ]
+    },
+    {
+        "iso2": "HU",
+        "name": "Hungary",
+        "flag": "🇭🇺",
+        "countryCode": "36",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "ID",
+        "name": "Indonesia",
+        "flag": "🇮🇩",
+        "countryCode": "62",
+        "masks": [
+            "000-000-000"
+        ]
+    },
+    {
+        "iso2": "IE",
+        "name": "Ireland",
+        "flag": "🇮🇪",
+        "countryCode": "353",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "IL",
+        "name": "Israel",
+        "flag": "🇮🇱",
+        "countryCode": "972",
+        "masks": [
+            "000-000-0000"
+        ]
+    },
+    {
+        "iso2": "IM",
+        "name": "Isle of Man",
+        "flag": "🇮🇲",
+        "countryCode": "44"
+    },
+    {
+        "iso2": "IN",
+        "name": "India",
+        "flag": "🇮🇳",
+        "countryCode": "91",
+        "masks": [
+            "00000 00000"
+        ]
+    },
+    {
+        "iso2": "IO",
+        "name": "British Indian Ocean Territory",
+        "flag": "🇮🇴",
+        "countryCode": "246"
+    },
+    {
+        "iso2": "IQ",
+        "name": "Iraq",
+        "flag": "🇮🇷",
+        "countryCode": "964",
+        "masks": [
+            "000 000 0000"
+        ]
+    },
+    {
+        "iso2": "IR",
+        "name": "Iran, Islamic Republic of",
+        "flag": "🇮🇷",
+        "countryCode": "98",
+        "masks": [
+            "000 000 0000"
+        ]
+    },
+    {
+        "iso2": "IS",
+        "name": "Iceland",
+        "flag": "🇮🇸",
+        "countryCode": "354",
+        "masks": [
+            "000 0000"
+        ]
+    },
+    {
+        "iso2": "IT",
+        "name": "Italy",
+        "flag": "🇮🇹",
+        "countryCode": "39",
+        "masks": [
+            "000 000 0000"
+        ]
+    },
+    {
+        "iso2": "JE",
+        "name": "Jersey",
+        "flag": "🇯🇪",
+        "countryCode": "44"
+    },
+    {
+        "iso2": "JM",
+        "name": "Jamaica",
+        "flag": "🇯🇲",
+        "countryCode": "1-876"
+    },
+    {
+        "iso2": "JO",
+        "name": "Jordan",
+        "flag": "🇯🇴",
+        "countryCode": "962",
+        "masks": [
+            "0 0000 0000"
+        ]
+    },
+    {
+        "iso2": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵",
+        "countryCode": "81",
+        "masks": [
+            "00-0000-0000"
+        ]
+    },
+    {
+        "iso2": "KE",
+        "name": "Kenya",
+        "flag": "🇰🇪",
+        "countryCode": "254",
+        "masks": [
+            "000 000000"
+        ]
+    },
+    {
+        "iso2": "KG",
+        "name": "Kyrgyzstan",
+        "flag": "🇰🇬",
+        "countryCode": "996",
+        "masks": [
+            "000 000 000"
+        ]
+    },
+    {
+        "iso2": "KH",
+        "name": "Cambodia",
+        "flag": "🇰🇭",
+        "countryCode": "855",
+        "masks": [
+            "00 000 000"
+        ]
+    },
+    {
+        "iso2": "KI",
+        "name": "Kiribati",
+        "flag": "🇰🇮",
+        "countryCode": "686"
+    },
+    {
+        "iso2": "KM",
+        "name": "Comoros",
+        "flag": "🇰🇲",
+        "countryCode": "269"
+    },
+    {
+        "iso2": "KN",
+        "name": "Saint Kitts and Nevis",
+        "flag": "🇰🇳",
+        "countryCode": "1-869"
+    },
+    {
+        "iso2": "KP",
+        "name": "Korea, Democratic People's Republic of",
+        "flag": "🇰🇵",
+        "countryCode": "850"
+    },
+    {
+        "iso2": "KR",
+        "name": "Korea, Republic of",
+        "flag": "🇰🇷",
+        "countryCode": "82",
+        "masks": [
+            "00-000-0000"
+        ]
+    },
+    {
+        "iso2": "KW",
+        "name": "Kuwait",
+        "flag": "🇰🇼",
+        "countryCode": "965",
+        "masks": [
+            "000 00000"
+        ]
+    },
+    {
+        "iso2": "KY",
+        "name": "Cayman Islands",
+        "flag": "🇰🇾",
+        "countryCode": "1-345"
+    },
+    {
+        "iso2": "KZ",
+        "name": "Kazakhstan",
+        "flag": "🇰🇿",
+        "countryCode": "7",
+        "masks": [
+            "0 000 000 00 00"
+        ]
+    },
+    {
+        "iso2": "LA",
+        "name": "Lao People's Democratic Republic",
+        "flag": "🇱🇦",
+        "countryCode": "856"
+    },
+    {
+        "iso2": "LB",
+        "name": "Lebanon",
+        "flag": "🇱🇧",
+        "countryCode": "961",
+        "masks": [
+            "00 000 000"
+        ]
+    },
+    {
+        "iso2": "LC",
+        "name": "Saint Lucia",
+        "flag": "🇱🇨",
+        "countryCode": "1-758"
+    },
+    {
+        "iso2": "LI",
+        "name": "Liechtenstein",
+        "flag": "🇱🇮",
+        "countryCode": "423",
+        "masks": [
+            "000 000 000"
+        ]
+    },
+    {
+        "iso2": "LK",
+        "name": "Sri Lanka",
+        "flag": "🇱🇰",
+        "countryCode": "94",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "LR",
+        "name": "Liberia",
+        "flag": "🇱🇷",
+        "countryCode": "231"
+    },
+    {
+        "iso2": "LS",
+        "name": "Lesotho",
+        "flag": "🇱🇸",
+        "countryCode": "266"
+    },
+    {
+        "iso2": "LT",
+        "name": "Lithuania",
+        "flag": "🇱🇹",
+        "countryCode": "370",
+        "masks": [
+            "000 00 000"
+        ]
+    },
+    {
+        "iso2": "LU",
+        "name": "Luxembourg",
+        "flag": "🇱🇺",
+        "countryCode": "352",
+        "masks": [
+            "000 000 000"
+        ]
+    },
+    {
+        "iso2": "LV",
+        "name": "Latvia",
+        "flag": "🇱🇻",
+        "countryCode": "371",
+        "masks": [
+            "00 000 000"
+        ]
+    },
+    {
+        "iso2": "LY",
+        "name": "Libya",
+        "flag": "🇱🇾",
+        "countryCode": "218"
+    },
+    {
+        "iso2": "MA",
+        "name": "Morocco",
+        "flag": "🇲🇦",
+        "countryCode": "212",
+        "masks": [
+            "0000-000000"
+        ]
+    },
+    {
+        "iso2": "MC",
+        "name": "Monaco",
+        "flag": "🇲🇨",
+        "countryCode": "377"
+    },
+    {
+        "iso2": "MD",
+        "name": "Moldova, Republic of",
+        "flag": "🇲🇩",
+        "countryCode": "373",
+        "masks": [
+            "0000 00 000"
+        ]
+    },
+    {
+        "iso2": "ME",
+        "name": "Montenegro",
+        "flag": "🇲🇪",
+        "countryCode": "382"
+    },
+    {
+        "iso2": "MF",
+        "name": "Saint Martin (French part)",
+        "flag": "🇲🇫",
+        "countryCode": "590"
+    },
+    {
+        "iso2": "MG",
+        "name": "Madagascar",
+        "flag": "🇲🇬",
+        "countryCode": "261"
+    },
+    {
+        "iso2": "MH",
+        "name": "Marshall Islands",
+        "flag": "🇲🇭",
+        "countryCode": "692"
+    },
+    {
+        "iso2": "MK",
+        "name": "Macedonia, the Former Yugoslav Republic of",
+        "flag": "🇲🇰",
+        "countryCode": "389"
+    },
+    {
+        "iso2": "ML",
+        "name": "Mali",
+        "flag": "🇲🇱",
+        "countryCode": "223"
+    },
+    {
+        "iso2": "MM",
+        "name": "Myanmar",
+        "flag": "🇲🇲",
+        "countryCode": "95",
+        "masks": [
+            "0 000 000"
+        ]
+    },
+    {
+        "iso2": "MN",
+        "name": "Mongolia",
+        "flag": "🇲🇳",
+        "countryCode": "976",
+        "masks": [
+            "0000 0000"
+        ]
+    },
+    {
+        "iso2": "MO",
+        "name": "Macao",
+        "flag": "🇲🇴",
+        "countryCode": "853"
+    },
+    {
+        "iso2": "MP",
+        "name": "Northern Mariana Islands",
+        "flag": "🇲🇵",
+        "countryCode": "1-670"
+    },
+    {
+        "iso2": "MQ",
+        "name": "Martinique",
+        "flag": "🇲🇶",
+        "countryCode": "596"
+    },
+    {
+        "iso2": "MR",
+        "name": "Mauritania",
+        "flag": "🇲🇷",
+        "countryCode": "222"
+    },
+    {
+        "iso2": "MS",
+        "name": "Montserrat",
+        "flag": "🇲🇸",
+        "countryCode": "1-664"
+    },
+    {
+        "iso2": "MT",
+        "name": "Malta",
+        "flag": "🇲🇹",
+        "countryCode": "356",
+        "masks": [
+            "0000 0000"
+        ]
+    },
+    {
+        "iso2": "MU",
+        "name": "Mauritius",
+        "flag": "🇲🇺",
+        "countryCode": "230",
+        "masks": [
+            "000 0000"
+        ]
+    },
+    {
+        "iso2": "MV",
+        "name": "Maldives",
+        "flag": "🇲🇻",
+        "countryCode": "960",
+        "masks": [
+            "000-0000"
+        ]
+    },
+    {
+        "iso2": "MW",
+        "name": "Malawi",
+        "flag": "🇲🇼",
+        "countryCode": "265"
+    },
+    {
+        "iso2": "MX",
+        "name": "Mexico",
+        "flag": "🇲🇽",
+        "countryCode": "52",
+        "masks": [
+            "000 000 0000"
+        ]
+    },
+    {
+        "iso2": "MY",
+        "name": "Malaysia",
+        "flag": "🇲🇾",
+        "countryCode": "60",
+        "masks": [
+            "00-000 0000"
+        ]
+    },
+    {
+        "iso2": "MZ",
+        "name": "Mozambique",
+        "flag": "🇲🇿",
+        "countryCode": "258"
+    },
+    {
+        "iso2": "NA",
+        "name": "Namibia",
+        "flag": "🇳🇦",
+        "countryCode": "264"
+    },
+    {
+        "iso2": "NC",
+        "name": "New Caledonia",
+        "flag": "🇳🇨",
+        "countryCode": "687"
+    },
+    {
+        "iso2": "NE",
+        "name": "Niger",
+        "flag": "🇳🇪",
+        "countryCode": "227"
+    },
+    {
+        "iso2": "NF",
+        "name": "Norfolk Island",
+        "flag": "🇳🇫",
+        "countryCode": "672"
+    },
+    {
+        "iso2": "NG",
+        "name": "Nigeria",
+        "flag": "🇳🇬",
+        "countryCode": "234",
+        "masks": [
+            "000 000 0000"
+        ]
+    },
+    {
+        "iso2": "NI",
+        "name": "Nicaragua",
+        "flag": "🇳🇮",
+        "countryCode": "505",
+        "masks": [
+            "0000 0000"
+        ]
+    },
+    {
+        "iso2": "NL",
+        "name": "Netherlands",
+        "flag": "🇳🇱",
+        "countryCode": "31",
+        "masks": [
+            "00 00000000"
+        ]
+    },
+    {
+        "iso2": "NO",
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "countryCode": "47",
+        "masks": [
+            "000 00 000"
+        ]
+    },
+    {
+        "iso2": "NP",
+        "name": "Nepal",
+        "flag": "🇳🇵",
+        "countryCode": "977",
+        "masks": [
+            "000-0000000"
+        ]
+    },
+    {
+        "iso2": "NR",
+        "name": "Nauru",
+        "flag": "🇳🇷",
+        "countryCode": "674"
+    },
+    {
+        "iso2": "NU",
+        "name": "Niue",
+        "flag": "🇳🇺",
+        "countryCode": "683"
+    },
+    {
+        "iso2": "NZ",
+        "name": "New Zealand",
+        "flag": "🇳🇿",
+        "countryCode": "64",
+        "masks": [
+            "000-000-0000"
+        ]
+    },
+    {
+        "iso2": "OM",
+        "name": "Oman",
+        "flag": "🇴🇲",
+        "countryCode": "968",
+        "masks": [
+            "0000 0000"
+        ]
+    },
+    {
+        "iso2": "PA",
+        "name": "Panama",
+        "flag": "🇵🇦",
+        "countryCode": "507",
+        "masks": [
+            "0000-0000"
+        ]
+    },
+    {
+        "iso2": "PE",
+        "name": "Peru",
+        "flag": "🇵🇪",
+        "countryCode": "51",
+        "masks": [
+            "000 000 000"
+        ]
+    },
+    {
+        "iso2": "PF",
+        "name": "French Polynesia",
+        "flag": "🇵🇫",
+        "countryCode": "689"
+    },
+    {
+        "iso2": "PG",
+        "name": "Papua New Guinea",
+        "flag": "🇵🇬",
+        "countryCode": "675"
+    },
+    {
+        "iso2": "PH",
+        "name": "Philippines",
+        "flag": "🇵🇭",
+        "countryCode": "63",
+        "masks": [
+            "000 000 0000"
+        ]
+    },
+    {
+        "iso2": "PK",
+        "name": "Pakistan",
+        "flag": "🇵🇰",
+        "countryCode": "92",
+        "masks": [
+            "000 0000000"
+        ]
+    },
+    {
+        "iso2": "PL",
+        "name": "Poland",
+        "flag": "🇵🇱",
+        "countryCode": "48",
+        "masks": [
+            "000-000-000"
+        ]
+    },
+    {
+        "iso2": "PM",
+        "name": "Saint Pierre and Miquelon",
+        "flag": "🇵🇲",
+        "countryCode": "508"
+    },
+    {
+        "iso2": "PN",
+        "name": "Pitcairn",
+        "flag": "🇵🇳",
+        "countryCode": "870"
+    },
+    {
+        "iso2": "PR",
+        "name": "Puerto Rico",
+        "flag": "🇵🇷",
+        "countryCode": "1-787"
+    },
+    {
+        "iso2": "PS",
+        "name": "Palestine, State of",
+        "flag": "🇵🇸",
+        "countryCode": "970"
+    },
+    {
+        "iso2": "PT",
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "countryCode": "351",
+        "masks": [
+            "000 000 000"
+        ]
+    },
+    {
+        "iso2": "PW",
+        "name": "Palau",
+        "flag": "🇵🇼",
+        "countryCode": "680"
+    },
+    {
+        "iso2": "PY",
+        "name": "Paraguay",
+        "flag": "🇵🇾",
+        "countryCode": "595",
+        "masks": [
+            "000 000000"
+        ]
+    },
+    {
+        "iso2": "QA",
+        "name": "Qatar",
+        "flag": "🇶🇦",
+        "countryCode": "974",
+        "masks": [
+            "0000 0000"
+        ]
+    },
+    {
+        "iso2": "RE",
+        "name": "Réunion",
+        "flag": "🇷🇪",
+        "countryCode": "262"
+    },
+    {
+        "iso2": "RO",
+        "name": "Romania",
+        "flag": "🇷🇴",
+        "countryCode": "40",
+        "masks": [
+            "000 000 0000"
+        ]
+    },
+    {
+        "iso2": "RS",
+        "name": "Serbia",
+        "flag": "🇷🇸",
+        "countryCode": "381",
+        "masks": [
+            "00 0000000"
+        ]
+    },
+    {
+        "iso2": "RU",
+        "name": "Russian Federation",
+        "flag": "🇷🇺",
+        "countryCode": "7",
+        "masks": [
+            "000 000-00-00"
+        ]
+    },
+    {
+        "iso2": "RW",
+        "name": "Rwanda",
+        "flag": "🇷🇼",
+        "countryCode": "250",
+        "masks": [
+            "000 000 000"
+        ]
+    },
+    {
+        "iso2": "SA",
+        "name": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "countryCode": "966",
+        "masks": [
+            "0 0000 0000"
+        ]
+    },
+    {
+        "iso2": "SB",
+        "name": "Solomon Islands",
+        "flag": "🇸🇧",
+        "countryCode": "677"
+    },
+    {
+        "iso2": "SC",
+        "name": "Seychelles",
+        "flag": "🇸🇨",
+        "countryCode": "248"
+    },
+    {
+        "iso2": "SD",
+        "name": "Sudan",
+        "flag": "🇸🇩",
+        "countryCode": "249"
+    },
+    {
+        "iso2": "SE",
+        "name": "Sweden",
+        "flag": "🇸🇪",
+        "countryCode": "46",
+        "masks": [
+            "00-000 00 00"
+        ]
+    },
+    {
+        "iso2": "SG",
+        "name": "Singapore",
+        "flag": "🇸🇬",
+        "countryCode": "65",
+        "masks": [
+            "0000 0000"
+        ]
+    },
+    {
+        "iso2": "SH",
+        "name": "Saint Helena",
+        "flag": "🇸🇭",
+        "countryCode": "290"
+    },
+    {
+        "iso2": "SI",
+        "name": "Slovenia",
+        "flag": "🇸🇮",
+        "countryCode": "386",
+        "masks": [
+            "00 000 000"
+        ]
+    },
+    {
+        "iso2": "SJ",
+        "name": "Svalbard and Jan Mayen",
+        "flag": "🇸🇯",
+        "countryCode": "47"
+    },
+    {
+        "iso2": "SK",
+        "name": "Slovakia",
+        "flag": "🇸🇰",
+        "countryCode": "421",
+        "masks": [
+            "000 000 000"
+        ]
+    },
+    {
+        "iso2": "SL",
+        "name": "Sierra Leone",
+        "flag": "🇸🇱",
+        "countryCode": "232"
+    },
+    {
+        "iso2": "SM",
+        "name": "San Marino",
+        "flag": "🇸🇲",
+        "countryCode": "378"
+    },
+    {
+        "iso2": "SN",
+        "name": "Senegal",
+        "flag": "🇸🇳",
+        "countryCode": "221"
+    },
+    {
+        "iso2": "SO",
+        "name": "Somalia",
+        "flag": "🇸🇴",
+        "countryCode": "252"
+    },
+    {
+        "iso2": "SR",
+        "name": "Suriname",
+        "flag": "🇸🇷",
+        "countryCode": "597"
+    },
+    {
+        "iso2": "SS",
+        "name": "South Sudan",
+        "flag": "🇸🇸",
+        "countryCode": "211"
+    },
+    {
+        "iso2": "ST",
+        "name": "Sao Tome and Principe",
+        "flag": "🇸🇹",
+        "countryCode": "239"
+    },
+    {
+        "iso2": "SV",
+        "name": "El Salvador",
+        "flag": "🇸🇻",
+        "countryCode": "503",
+        "masks": [
+            "0000 0000"
+        ]
+    },
+    {
+        "iso2": "SX",
+        "name": "Sint Maarten (Dutch part)",
+        "flag": "🇸🇽",
+        "countryCode": "1-721"
+    },
+    {
+        "iso2": "SY",
+        "name": "Syrian Arab Republic",
+        "flag": "🇸🇾",
+        "countryCode": "963",
+        "masks": [
+            "000 000 000"
+        ]
+    },
+    {
+        "iso2": "SZ",
+        "name": "Swaziland",
+        "flag": "🇸🇿",
+        "countryCode": "268"
+    },
+    {
+        "iso2": "TC",
+        "name": "Turks and Caicos Islands",
+        "flag": "🇹🇨",
+        "countryCode": "1-649"
+    },
+    {
+        "iso2": "TD",
+        "name": "Chad",
+        "flag": "🇹🇩",
+        "countryCode": "235"
+    },
+    {
+        "iso2": "TF",
+        "name": "French Southern Territories",
+        "flag": "🇹🇫",
+        "countryCode": "262"
+    },
+    {
+        "iso2": "TG",
+        "name": "Togo",
+        "flag": "🇹🇬",
+        "countryCode": "228"
+    },
+    {
+        "iso2": "TH",
+        "name": "Thailand",
+        "flag": "🇹🇭",
+        "countryCode": "66",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "TJ",
+        "name": "Tajikistan",
+        "flag": "🇹🇯",
+        "countryCode": "992",
+        "masks": [
+            "000 00 0000"
+        ]
+    },
+    {
+        "iso2": "TK",
+        "name": "Tokelau",
+        "flag": "🇹🇰",
+        "countryCode": "690"
+    },
+    {
+        "iso2": "TL",
+        "name": "Timor-Leste",
+        "flag": "🇹🇱",
+        "countryCode": "670"
+    },
+    {
+        "iso2": "TM",
+        "name": "Turkmenistan",
+        "flag": "🇹🇲",
+        "countryCode": "993",
+        "masks": [
+            "0 0000000"
+        ]
+    },
+    {
+        "iso2": "TN",
+        "name": "Tunisia",
+        "flag": "🇹🇳",
+        "countryCode": "216",
+        "masks": [
+            "00 000 000"
+        ]
+    },
+    {
+        "iso2": "TO",
+        "name": "Tonga",
+        "flag": "🇹🇴",
+        "countryCode": "676"
+    },
+    {
+        "iso2": "TR",
+        "name": "Turkey",
+        "flag": "🇹🇷",
+        "countryCode": "90",
+        "masks": [
+            "000 000 00 00"
+        ]
+    },
+    {
+        "iso2": "TT",
+        "name": "Trinidad and Tobago",
+        "flag": "🇹🇹",
+        "countryCode": "1-868"
+    },
+    {
+        "iso2": "TV",
+        "name": "Tuvalu",
+        "flag": "🇹🇻",
+        "countryCode": "688"
+    },
+    {
+        "iso2": "TW",
+        "name": "Taiwan",
+        "flag": "🇹🇼",
+        "countryCode": "886",
+        "masks": [
+            "0000 000 000"
+        ]
+    },
+    {
+        "iso2": "TZ",
+        "name": "Tanzania, United Republic of",
+        "flag": "🇹🇿",
+        "countryCode": "255",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "UA",
+        "name": "Ukraine",
+        "flag": "🇺🇦",
+        "countryCode": "380",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "UG",
+        "name": "Uganda",
+        "flag": "🇺🇬",
+        "countryCode": "256",
+        "masks": [
+            "000 000000"
+        ]
+    },
+    {
+        "iso2": "US",
+        "name": "United States",
+        "flag": "🇺🇸",
+        "countryCode": "1",
+        "suggested": true,
+        "masks": [
+            "000-000-0000"
+        ]
+    },
+    {
+        "iso2": "UY",
+        "name": "Uruguay",
+        "flag": "🇺🇾",
+        "countryCode": "598",
+        "masks": [
+            "00 000 000"
+        ]
+    },
+    {
+        "iso2": "UZ",
+        "name": "Uzbekistan",
+        "flag": "🇺🇿",
+        "countryCode": "998",
+        "masks": [
+            "00 000 00 00"
+        ]
+    },
+    {
+        "iso2": "VA",
+        "name": "Holy See (Vatican City State)",
+        "flag": "🇻🇦",
+        "countryCode": "379"
+    },
+    {
+        "iso2": "VC",
+        "name": "Saint Vincent and the Grenadines",
+        "flag": "🇻🇨",
+        "countryCode": "1-784"
+    },
+    {
+        "iso2": "VE",
+        "name": "Venezuela",
+        "flag": "🇻🇪",
+        "countryCode": "58",
+        "masks": [
+            "0000-0000000"
+        ]
+    },
+    {
+        "iso2": "VG",
+        "name": "British Virgin Islands",
+        "flag": "🇻🇬",
+        "countryCode": "1-284"
+    },
+    {
+        "iso2": "VI",
+        "name": "Virgin Islands, U.S.",
+        "flag": "🇻🇮",
+        "countryCode": "1-340"
+    },
+    {
+        "iso2": "VN",
+        "name": "Vietnam",
+        "flag": "🇻🇳",
+        "countryCode": "84",
+        "masks": [
+            "00 0000 000"
+        ]
+    },
+    {
+        "iso2": "VU",
+        "name": "Vanuatu",
+        "flag": "🇻🇺",
+        "countryCode": "678"
+    },
+    {
+        "iso2": "WF",
+        "name": "Wallis and Futuna",
+        "flag": "🇼🇫",
+        "countryCode": "681"
+    },
+    {
+        "iso2": "WS",
+        "name": "Samoa",
+        "flag": "🇼🇸",
+        "countryCode": "685"
+    },
+    {
+        "iso2": "XK",
+        "name": "Kosovo",
+        "flag": "🇽🇰",
+        "countryCode": "383"
+    },
+    {
+        "iso2": "YE",
+        "name": "Yemen",
+        "flag": "🇾🇪",
+        "countryCode": "967",
+        "masks": [
+            "000 000 000"
+        ]
+    },
+    {
+        "iso2": "YT",
+        "name": "Mayotte",
+        "flag": "🇾🇹",
+        "countryCode": "262"
+    },
+    {
+        "iso2": "ZA",
+        "name": "South Africa",
+        "flag": "🇿🇦",
+        "countryCode": "27",
+        "masks": [
+            "00 000 0000"
+        ]
+    },
+    {
+        "iso2": "ZM",
+        "name": "Zambia",
+        "flag": "🇿🇲",
+        "countryCode": "260"
+    },
+    {
+        "iso2": "ZW",
+        "name": "Zimbabwe",
+        "flag": "🇿🇼",
+        "countryCode": "263"
+    }
+]
