@@ -2,6 +2,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import terser from "@rollup/plugin-terser";
+import json from '@rollup/plugin-json';
 
 export default {
     input: "src/index.ts",
@@ -10,7 +11,7 @@ export default {
             file: "dist/index.cjs.js",
             format: "cjs",
             sourcemap: true,
-            exports: "default"
+            exports: 'named'
         },
         {
             file: "dist/index.js",
@@ -34,6 +35,7 @@ export default {
     plugins: [
         resolve(),
         commonjs(),
-        typescript({ tsconfig: "./tsconfig.json" })
+        typescript({ tsconfig: "./tsconfig.json" }),
+        json()
     ]
 };
