@@ -9,6 +9,13 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "build": "rollup -c",
     "prepare": "npm run build"
