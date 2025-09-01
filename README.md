@@ -23,11 +23,11 @@ import { maskNumber, countries } from 'mask-any-number';
 
 // Germany 🇩🇪
 maskNumber('493012345678', countries.find(country => country.iso2 === 'DE').masks); 
-// "+49 30 1234 5678"
+// "30 1234 5678"
 
 // Brazil 🇧🇷
 maskNumber('5511998765432', countries.find(country => country.iso2 === 'BR').masks); 
-// "+55 11 99876 5432"
+// "11 99876 5432"
 
 // US 🇺🇸
 maskNumber('1234567890', countries.find(country => country.iso2 === 'US').masks); 
@@ -66,11 +66,11 @@ maskNumber('861012345678', ['+86 00 0000 0000']); // "+86 10 1234 5678"
 Return: `string` — formatted number according to the first mask that fits.
 
 # 🔁 Visual Summary
-| Type        | Input          | Mask                | Output          |
-|------------|----------------|-------------------|----------------|
-| US Phone   | 1234567890     | (000) 000-0000    | (123) 456-7890 |
-| EU Phone   | 493012345678   | +49 00 0000 0000  | +49 30 1234 5678 |
-| CN Phone   | 861012345678   | +86 00 0000 0000  | +86 10 1234 5678 |
+| Type        | Input           | Mask                | Output          |
+|-------------|-----------------|---------------------|----------------|
+| US Phone    | 1234567890      | (000) 000-0000      | (123) 456-7890 |
+| EU Phone    | 493012345678    | 00 0000 0000        | 30 1234 5678 |
+| CN Phone    | 861012345678    | 00 0000 0000        | 10 1234 5678 |
 
 # 🧪 Testing with Mock Data
 ```javascript
