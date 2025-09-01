@@ -1,3 +1,5 @@
+const { maskNumber, countries } = MaskAnyNumber;
+
 const input = document.getElementById('phoneNumberInput');
 const select = document.getElementById('maskSelect');
 
@@ -9,11 +11,10 @@ countries.forEach(country => {
 });
 
 function handleChange() {
-    const masked = maskNumber(input.value, countries.find(c => c.iso2 === select.value)?.masks || []);
-
+    const country = countries.find(c => c.iso2 === select.value);
+    const masked = maskNumber(input.value, country?.masks || []);
     input.value = masked;
 }
-
 
 input.addEventListener('input', handleChange);
 select.addEventListener('change', handleChange);

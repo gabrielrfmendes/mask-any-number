@@ -16,6 +16,8 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "unpkg": "dist/index.umd.min.js",
+  "jsdelivr": "dist/index.umd.min.js",
   "scripts": {
     "build": "rollup -c",
     "prepare": "npm run build"
