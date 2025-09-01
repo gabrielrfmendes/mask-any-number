@@ -50,3 +50,8 @@ export function maskNumber(value: string, masks: string[]) {
 
     return formatted;
 }
+
+if (typeof window !== 'undefined') {
+    (window as any).countries = countries;
+    (window as any).maskNumber = maskNumber;
+}

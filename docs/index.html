@@ -18,6 +18,10 @@
     <meta name="twitter:card" content="summary_large_image">
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="bg-black text-gray-200 font-sans">
@@ -49,19 +53,14 @@ npm install mask-any-number
             <div id="demo"
                 class="flex-1 bg-gray-900 shadow-lg rounded-2xl p-6 w-full max-w-md mx-auto border border-gray-800">
                 <h3 class="text-xl font-semibold mb-4">🎮 Demo</h3>
+                <label for="mask" class="block font-medium mb-1">Choose a mask:</label>
+                <select id="maskSelect"
+                    class="w-full border rounded-lg p-2 mb-4 bg-black text-white border-gray-700 focus:outline-none focus:ring focus:ring-blue-400">
+                </select>
                 <label for="value" class="block font-medium mb-1">Enter a number:</label>
-                <input id="value" type="text"
+                <input id="phoneNumberInput" type="text"
                     class="w-full border rounded-lg p-2 mb-4 bg-black text-white border-gray-700 focus:outline-none focus:ring focus:ring-blue-400"
                     placeholder="type here" autofocus>
-
-                <label for="mask" class="block font-medium mb-1">Choose a mask:</label>
-                <select id="mask"
-                    class="w-full border rounded-lg p-2 mb-4 bg-black text-white border-gray-700 focus:outline-none focus:ring focus:ring-blue-400">
-                    <option value="000-000-0000">Phone (US): 000-000-0000</option>
-                    <option value="00/00/0000">Date (EU): 00/00/0000</option>
-                    <option value="(000) 000-0000">Phone (US formatted): (000) 000-0000</option>
-                    <option value="+00 00 0000 0000">Phone (BR): +00 00 0000 0000</option>
-                </select>
             </div>
         </div>
     </section>
@@ -81,10 +80,19 @@ npm install mask-any-number
         <h3 class="text-2xl font-semibold mb-4">📖 Usage</h3>
         <pre class="relative bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto">
 <button onclick="copyCode(this)" class="absolute top-2 right-2 text-gray-400 hover:text-white">📋</button>
-import { maskNumber } from "mask-any-number";
+import { maskNumber, countries } from 'mask-any-number';
 
-const result = maskNumber("1234567890", ["000-000-0000"]);
-console.log(result); // "123-456-7890"
+// Germany 🇩🇪
+maskNumber('493012345678', countries.find(country => country.iso2 === 'DE').masks); 
+// "30 1234 5678"
+
+// Brazil 🇧🇷
+maskNumber('551140028922', countries.find(country => country.iso2 === 'BR').masks); 
+// "11 4002-8922"
+
+// US 🇺🇸
+maskNumber('1234567890', countries.find(country => country.iso2 === 'US').masks); 
+// "(123) 456-7890"
     </pre>
     </section>
     <section id="api" class="py-16 max-w-5xl mx-auto px-6">
@@ -98,10 +106,10 @@ console.log(result); // "123-456-7890"
     </section>
     <footer class="bg-black border-t border-gray-800 text-gray-500 py-6 text-center">
         <p>📜 mask-any-number — Developed by Gabriel</p>
-        <p class="text-sm">Open source available on <a href="https://github.com/seu-repo" target="_blank"
-                class="text-blue-400 hover:underline">GitHub</a></p>
+        <p class="text-sm">Open source available on <a href="https://github.com/gabrielrfmendes/mask-any-number"
+                target="_blank" class="text-blue-400 hover:underline">GitHub</a></p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/mask-any-number/dist/index.umd.min.js"></script>
+    <script src="../dist/index.umd.min.js"></script>
     <script src="script.js"></script>
 </body>
 
