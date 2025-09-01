@@ -2,7 +2,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import terser from "@rollup/plugin-terser";
-import json from '@rollup/plugin-json';
+import json from "@rollup/plugin-json";
 
 export default {
     input: "src/index.ts",
@@ -11,7 +11,7 @@ export default {
             file: "dist/index.cjs.js",
             format: "cjs",
             sourcemap: true,
-            exports: 'named'
+            exports: "named"
         },
         {
             file: "dist/index.js",
@@ -21,13 +21,13 @@ export default {
         {
             file: "dist/index.umd.js",
             format: "umd",
-            name: "maskNumber",
+            name: "MaskAnyNumber",
             sourcemap: true
         },
         {
             file: "dist/index.umd.min.js",
             format: "umd",
-            name: "maskNumber",
+            name: "MaskAnyNumber",
             plugins: [terser()],
             sourcemap: true
         }
