@@ -1,4 +1,4 @@
-const { maskNumber, countries } = MaskAnyNumber;
+const { maskNumber, countries } = window.maskNumber;
 
 const input = document.getElementById('phoneNumberInput');
 const select = document.getElementById('maskSelect');
