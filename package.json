@@ -14,7 +14,9 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs.js",
       "types": "./dist/index.d.ts"
-    }
+    },
+    "./dist/index.umd.js": "./dist/index.umd.js",
+    "./dist/index.umd.min.js": "./dist/index.umd.min.js"
   },
   "unpkg": "dist/index.umd.min.js",
   "jsdelivr": "dist/index.umd.min.js",
