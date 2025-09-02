@@ -1,6 +1,6 @@
 {
   "name": "mask-any-number",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "Apply flexible numeric masks to any string. Perfect for phone numbers, documents, and custom input formatting.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
